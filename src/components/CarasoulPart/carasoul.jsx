@@ -1,4 +1,6 @@
 import './carasoul.css';
+import ProductCart from './productCart/ProductCart';
+
 
 
 export default function carasoul() {
@@ -45,8 +47,10 @@ export default function carasoul() {
                     BUY ON GATE.IO
                 </button>
             </div>
-            <div className="3cards">
-                
+            <div className="threecards">
+                <ProductCart/>     
+                <ProductCart/>     
+                <ProductCart/>     
             </div>
         </div>
     );

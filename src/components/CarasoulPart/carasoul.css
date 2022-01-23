@@ -15,3 +15,7 @@
     justify-content: space-around;
     background-color: rgb(75, 28, 169);
 }
+.threecards{
+    display: flex;
+
+}

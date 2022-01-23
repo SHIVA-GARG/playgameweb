@@ -1,0 +1,23 @@
+.productCard{
+    padding: 10px;
+    margin: 2rem 1rem;
+    border: 2px solid white;
+}
+.icon{
+    font-size: 15px !important;
+    color: gray;
+}
+.productCard h6{
+    color: gold;
+}
+.productCard p{
+    font-size: 1vw;
+}
+.productCard a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -5px;
+    color: white;
+}
