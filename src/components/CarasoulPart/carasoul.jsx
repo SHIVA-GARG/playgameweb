@@ -25,10 +25,28 @@ export default function carasoul() {
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
                 </a>
+
                 <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
+                    <span className="sr-only">Next Hello World</span>
                 </a>
+            </div>
+            <div className="but" style={{ display: "flex", justifyContent: "space-between" }}>
+                <button style={{ marginLeft: "10px" }}>
+                    APPLY AS A PROJECT
+                </button>
+                <button>
+                    BUY ON PANCAKESWAP
+                </button>
+                <button>
+                    BUY ON KUCOIN
+                </button>
+                <button style={{ marginRight: "10px" }}>
+                    BUY ON GATE.IO
+                </button>
+            </div>
+            <div className="3cards">
+                
             </div>
         </div>
     );
