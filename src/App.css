@@ -1,27 +1,38 @@
-*{
-  margin: 0;
-  padding: 0;
-  background-color: rgb(24, 24, 43);
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 24, 43);
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    /* padding: 2px;
+    margin: 2px;
+    border: 2px solid red; */
+    
 }
+body{
+    
+   
+    width: 90%;
+    margin: auto;
+   
+    border: 2px solid white;
+}
+
 .App {
-  text-align: center;
-
+    text-align: center;
 }
-
-
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
-
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
