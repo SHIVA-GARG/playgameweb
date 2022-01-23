@@ -1,16 +1,16 @@
-
-import './App.css';
 import Carasoul from './components/CarasoulPart/Carasoul';
+import Footer from './components/footer/Footer';
 import Middlepart from './components/middlePart/Middlepart';
 
 import Topbar from './components/Topbar/Topbar';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Topbar/>
       <Carasoul/>
       <Middlepart/>
+      <Footer />
     </div>
   );
 }
