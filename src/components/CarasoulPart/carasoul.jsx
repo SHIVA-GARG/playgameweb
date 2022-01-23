@@ -48,9 +48,10 @@ export default function carasoul() {
                 </button>
             </div>
             <div className="threecards">
-                <ProductCart/>     
-                <ProductCart/>     
-                <ProductCart/>     
+                <ProductCart h1= "WHTA IS" span = "LAUNCHPAD"
+                p =""/>     
+                <ProductCart h1 = "TIER" span="SYSTEM" />     
+                <ProductCart h1 = "HOW TO GET" span = "STARTEDP"/>     
             </div>
         </div>
     );

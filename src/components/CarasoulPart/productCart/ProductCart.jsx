@@ -1,9 +1,9 @@
 import { ChevronRight } from '@mui/icons-material';
 import './ProductCart.css';
 
-function ProductCart() {
+function ProductCart({h1,span,p}) {
   return <div className='productCard'>
-      <h6>WHAT IS <span>LAUNCHPAD</span></h6>
+      <h6>{h1} <span>{span}</span></h6>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deleniti tempora dignissimos nostrum nihil molestiae sunt placeat dolorum eveniet ducimus veniam, tenetur eos quasi aliquid consequatur aliquam at ipsam consectetur!
       Itaque ducimus</p>
       <a href='#'>load more
