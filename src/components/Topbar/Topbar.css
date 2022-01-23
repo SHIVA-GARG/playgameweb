@@ -1,0 +1,49 @@
+.topbar{
+    display: flex;
+}
+.log{
+    flex: 0.2;
+    display: flex;
+    margin-left: 5vw;
+    color: gold;
+}
+.log i{
+    color: gold;
+}
+.twovtn{
+    flex: 0.3;
+    display: flex;
+    
+}
+
+.twovtn p{
+    margin: 0 10px;
+}
+.twovtn p:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+       
+}
+.rightpart h6:hover{
+    cursor: pointer;
+    text-decoration: underline;
+   
+}
+.rightpart{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.rightpart h6{
+    margin-right: 5vw;
+    font-size: 20px;
+}
+.avtr{
+    font-size: 1rem !important;
+    margin-right: 1vw;
+
+
+}
