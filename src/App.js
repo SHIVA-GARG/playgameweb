@@ -1,4 +1,5 @@
-import Carasoul from './components/CarasoulPart/Carasoul';
+// import Carasoul from './components/CarasoulPart/Carasoul';
+import Carasoul from './components/CarasoulPart/Carasoul'
 import Footer from './components/footer/Footer';
 import Middlepart from './components/middlePart/Middlepart';
 import Topbar from './components/Topbar/Topbar';
@@ -9,6 +10,7 @@ function App() {
     <div>
       <main>
       <Topbar/>
+     
       <Carasoul/>
       <Middlepart/>
       </main>
