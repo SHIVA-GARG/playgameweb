@@ -1,7 +1,7 @@
 import './carasoul.css';
 import ProductCart from './productCart/ProductCart';
 import second from '../../Assets/img/img3.png';
-import third from '../../Assets/img/img4.png';
+// import third from '../../Assets/img/img4.png';
 ;
 
 ;
