@@ -6,6 +6,8 @@ const FooterDiv = styled.div`
     height: 300px;
     position: relative;
     width: 100%;
+    top:100px;
+    bottom:0;
     border-top: 2px solid #49187a;
 
     &:before {
@@ -25,12 +27,12 @@ const Footer = () => {
     return (
         <FooterDiv>
             <div className="container-fluid" style={{ width: "80%",color:"white" }}>
-                <div className="row">
+                <div className="row" style={{margin:"3rem 5rem"}}>
                     <div className="col-lg-4">
                         <h4> <span> LAUNCHPAD & </span> IGO</h4>
                         <p></p>
                     </div>
-                    <div className="col-lg-5 row">
+                    <div className="col-lg-5 column d-flex" >
                         <div className="col-lg-4">
                             <h4> ABOUT </h4>
                             <ul>
