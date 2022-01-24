@@ -21,7 +21,7 @@ function App() {
             <Carasoul />
             <Middlepart />
         </div>  <div style={
-            { display: "block", margin: "auto", width: "90%", marginTop: "3rem" }
+            { display: "block", margin: "auto", marginTop: "3rem" }
         } >
             < Footer />
         </div>
