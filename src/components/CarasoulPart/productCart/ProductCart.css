@@ -1,8 +1,31 @@
 .productCard{
-    padding: 10px;
+    width: 90%;
+    padding: 20px;
     margin: 4rem 1rem;
     border: 2px solid white;
+    /* animation: shake 0.8; */
+    /* transform: translate(-50%, -50%); */
 }
+.mainCard:hover div{
+    cursor: pointer;
+    animation: shake 0.8s;
+    /* transform: translate(-3%, -3%); */
+}
+@keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(25px);
+    }
+      
+    50%{
+      transform: translateX(-25px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
 .icon{
     font-size: 15px !important;
     color: gray;

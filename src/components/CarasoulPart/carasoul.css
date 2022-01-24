@@ -20,6 +20,12 @@
     justify-content: start;
 
 }
+.but button:hover{
+    transform: translate(-3%, -3%);
+    /* animation: shake 0.1s; */
+    box-shadow: 2px 0px 0px 0px;
+    cursor: pointer;
+}
 .rightSide{
     background: url('../../Assets/img/rightSde.png');
     background-repeat: no-repeat;

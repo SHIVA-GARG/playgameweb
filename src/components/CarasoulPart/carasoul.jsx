@@ -43,7 +43,7 @@ export default function carasoul() {
                 </a>
             </div>
             <div className="but" style={{ display: "flex", justifyContent: "space-between",position:"relative",top:"3rem" }}>
-                <button style={{ marginLeft: "20px" }}>
+                <button  style={{ marginLeft: "20px" }}>
                     APPLY AS A PROJECT
                 </button>
                 <button>
