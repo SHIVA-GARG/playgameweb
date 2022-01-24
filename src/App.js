@@ -1,5 +1,5 @@
 // import Carasoul from './components/CarasoulPart/Carasoul';
-import Carasoul from './components/CarasoulPart/Carasoul';
+import Carasoul from './components/CarasoulPart/Carasoul.jsx';
 
 
 // import Carasoul from './components/CarasoulPart/Carasoul.jsx'
