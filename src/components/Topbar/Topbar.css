@@ -1,5 +1,8 @@
 .topbar{
     display: flex;
+    margin-top: 100px;
+    padding-top:100px ;
+    font-size: 30px;
 }
 .log{
     flex: 0.2;
@@ -25,7 +28,7 @@
         text-decoration: underline;
        
 }
-.rightpart h6:hover{
+.rightpart >h6:hover{
     cursor: pointer;
     text-decoration: underline;
    
@@ -39,7 +42,7 @@
 }
 .rightpart h6{
     margin-right: 5vw;
-    font-size: 20px;
+    font-size: 30px;
 }
 .avtr{
     font-size: 1rem !important;
