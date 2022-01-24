@@ -1,0 +1,20 @@
+@font-face {
+    font-family: CasanovaScotia;
+    src: url(../../Assets/fonts/CasanovaScotia.ttf);
+}
+
+@font-face {
+    font-family: GammaOrionis;
+    src: url(../../Assets/fonts/Gamma\ Orionis.otf);
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+@font-face {
+    font-family: SpaceQuest;
+    src: url(../../Assets/fonts/SpaceQuest-Xj4o.ttf);
+}
+
+.last{
+    font-family: sans-serif !important;
+}
