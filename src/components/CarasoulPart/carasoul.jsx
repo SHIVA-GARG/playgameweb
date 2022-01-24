@@ -1,5 +1,5 @@
 import './carasoul.css';
-import ProductCart from './productCart/ProductCart';
+import ProductCart from './productCart/ProductCart.jsx';
 import second from '../../Assets/img/img3.png';
 // import third from '../../Assets/img/img4.png';
 ;

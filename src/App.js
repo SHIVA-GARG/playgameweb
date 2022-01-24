@@ -1,8 +1,8 @@
 // import Carasoul from './components/CarasoulPart/Carasoul';
-import Carasoul from './components/CarasoulPart/Carasoul'
-import Footer from './components/footer/Footer';
-import Middlepart from './components/middlePart/Middlepart';
-import Topbar from './components/Topbar/Topbar';
+import Carasoul from './components/CarasoulPart/Carasoul.jsx'
+import Footer from './components/footer/Footer.jsx';
+import Middlepart from './components/middlePart/Middlepart.jsx';
+import Topbar from './components/Topbar/Topbar.jsx';
 import "./App.css";
 // import ProductDesign from './components/CarasoulPart/productDesign/ProductDesign'
 
