@@ -9,7 +9,7 @@ export default function carasoul() {
     return (
 
         <div className="carasoulPart"  style={{position:"relative",top:"2rem"}}>
-            <h1>hello world</h1>
+            
             <img src = {second} alt="dssof" style={{width:"95%",margin:"auto",display:"block",position:"relative",top:"3.2vh",zIndex:"100",height:"3vh"}} />
 
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
