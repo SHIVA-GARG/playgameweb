@@ -6,33 +6,39 @@
     justify-content: center;
     align-items: center; */
     margin: auto;
-    /* object-fit: contain;  */
+    object-fit: fill; 
     
 }
-.leftSide{
-    background: url('../../Assets/img/img4.png');
-    left: 0.3rem;
-    /* object-fit: contain; */
-    top: -0.4rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: start;
 
-}
 .but button:hover{
     transform: translate(-3%, -3%);
     /* animation: shake 0.1s; */
     box-shadow: 2px 0px 0px 0px;
     cursor: pointer;
 }
+.leftSide{
+    /* background: url('../../Assets/img/img4.png'); */
+    /* left: 3rem; */
+    width: 100px;
+    
+    /* object-fit: contain; */
+    /* top: 1rem; */
+    z-index: 100;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* display: flex; */
+    /* justify-content: start; */
+
+}
 .rightSide{
-    background: url('../../Assets/img/rightSde.png');
+    /* background: url('../../Assets/img/rightSde.png'); */
     background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    top: -0.4rem;
-    right: -10.5vw;
+    /* background-size: contain; */
+    /* display: flex; */
+    /* top: 1.4rem; */
+    width: 100px;
+    z-index: 100;
+    right: 0vw;
 }
 .but button{
     display: flex;
